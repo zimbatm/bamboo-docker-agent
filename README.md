@@ -16,5 +16,5 @@ docker run -e HOME=/root/ -e BAMBOO_SERVER=http://hostname:8085  -it bamboo-agen
 ### Attaching docker from host
 The following command allows you to execute docker commands from the container's host meaning you do not need to install docker on the agent.
 ```bash
-docker run -e HOME=/root/ -e BAMBOO_SERVER=http://hostname:8085 -v /usr/bin/docker:/usr/bin/docker -v /usr/bin/docker-compose:/usr/bin/docker-compose -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/aufs:/var/lib/docker/aufs -v /var/lib/docker:/var/lib/docker -it dh01:5000/juralio/bamboo-agent
+docker run -e HOME=/root/ -e BAMBOO_SERVER=http://hostname:8085 -v /usr/bin/docker:/usr/bin/docker -v /usr/bin/docker-compose:/usr/bin/docker-compose -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/aufs:/var/lib/docker/aufs -v /var/lib/docker:/var/lib/docker -it bamboo-agent
 ```
