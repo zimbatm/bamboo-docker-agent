@@ -1,5 +1,5 @@
 # Bamboo Docker Agent
-This agent is tested on Atlassian Bamboo version 5.12.3.1. The official [bamboo-java-agent](https://hub.docker.com/r/atlassian/bamboo-java-agent/) is built with Java v7 but v8 is required by later versions of Bamboo server.
+This agent is tested on Atlassian Bamboo version 5.12.3.1. The official [bamboo-java-agent](https://hub.docker.com/r/atlassian/bamboo-java-agent/) is built with Java v7 but v8 is required by later versions of Bamboo server so new bootstrap files can be updated.
 
 ## Building
 ```bash
